@@ -1,6 +1,6 @@
-#Telecommunications Fraud Detection Using MongoDB and Python
+# Telecommunications Fraud Detection Using MongoDB and Python
 
-Project Deliverable
+## Project Deliverable
 ● A GitHub repository with a python file (.py) with your solution.
 
 ## Problem Statement
