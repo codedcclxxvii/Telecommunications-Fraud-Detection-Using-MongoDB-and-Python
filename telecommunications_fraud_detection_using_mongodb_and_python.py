@@ -66,7 +66,7 @@ def transform_data(df):
 # Loading function
 def load_data(transformed_data, host, port, db_name, collection_name):
     # Connect to MongoDB
-    client = pymongo.MongoClient(host, port)
+    client = pymongo.MongoClient(host, port, ssl=True, ssl_cert_reqs='CERT_NONE')
     db = client[db_name]
     collection = db[collection_name]
 
